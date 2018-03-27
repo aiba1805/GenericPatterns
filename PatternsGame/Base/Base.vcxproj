@@ -19,20 +19,40 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Boots.h" />
+    <ClInclude Include="BootsType.h" />
     <ClInclude Include="Character.h" />
     <ClInclude Include="Characteristics.h" />
     <ClInclude Include="Entity.h" />
+    <ClInclude Include="Inventory.h" />
     <ClInclude Include="Item.h" />
+    <ClInclude Include="Items_All.h" />
+    <ClInclude Include="Item_Factory.h" />
+    <ClInclude Include="Item_Factory_Boots.h" />
     <ClInclude Include="Mob.h" />
+    <ClInclude Include="Sword.h" />
+    <ClInclude Include="SwordType.h" />
     <ClInclude Include="Weapon.h" />
+    <ClInclude Include="Weapons_All.h" />
+    <ClInclude Include="Weapon_Factory.h" />
+    <ClInclude Include="Weapon_Factory_Sword.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Boots.cpp" />
     <ClCompile Include="Character.cpp" />
     <ClCompile Include="Characteristics.cpp" />
     <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="Inventory.cpp" />
     <ClCompile Include="Item.cpp" />
+    <ClCompile Include="Items_All.cpp" />
+    <ClCompile Include="Item_Factory.cpp" />
+    <ClCompile Include="Item_Factory_Boots.cpp" />
     <ClCompile Include="Mob.cpp" />
+    <ClCompile Include="Sword.cpp" />
     <ClCompile Include="Weapon.cpp" />
+    <ClCompile Include="Weapons_All.cpp" />
+    <ClCompile Include="Weapon_Factory.cpp" />
+    <ClCompile Include="Weapon_Factory_Sword.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

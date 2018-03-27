@@ -13,45 +13,135 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Заголовочные файлы\Weapons">
+      <UniqueIdentifier>{9b37d4a2-36e4-45e0-a2ae-17c632ac4ce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Base Entities">
+      <UniqueIdentifier>{1766e941-ef3e-4884-b18e-ed6691aaaeb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Base Entities">
+      <UniqueIdentifier>{7b32f070-6197-4480-9ec4-57bcf6e1b376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Weapons">
+      <UniqueIdentifier>{f95b6e25-46b8-4a56-a8a0-b7901988915d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Items">
+      <UniqueIdentifier>{2be783d4-8081-4932-9c6f-e15428a3e1df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Items">
+      <UniqueIdentifier>{2c020f15-383b-4bbf-8110-a250bfdfeb91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Weapons\Weapon Factory">
+      <UniqueIdentifier>{0ec6e984-aa62-41a4-bdbc-1151ca436db4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Weapons\Weapon Factory">
+      <UniqueIdentifier>{6eef4b3e-13be-47d2-8d53-67dbe87383de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Items\Item Factory">
+      <UniqueIdentifier>{5869e5a5-8781-4440-892f-51907064e1f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Items\Item Factory">
+      <UniqueIdentifier>{e5bb5e34-0ef4-4c5d-b8a6-8c5de33ae5b8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Character.h">
-      <Filter>Заголовочные файлы</Filter>
+    <ClInclude Include="Weapon_Factory.h">
+      <Filter>Заголовочные файлы\Weapons\Weapon Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon_Factory_Sword.h">
+      <Filter>Заголовочные файлы\Weapons\Weapon Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapons_All.h">
+      <Filter>Заголовочные файлы\Weapons\Weapon Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Sword.h">
+      <Filter>Заголовочные файлы\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="SwordType.h">
+      <Filter>Заголовочные файлы\Weapons</Filter>
     </ClInclude>
     <ClInclude Include="Entity.h">
-      <Filter>Заголовочные файлы</Filter>
-    </ClInclude>
-    <ClInclude Include="Mob.h">
-      <Filter>Заголовочные файлы</Filter>
-    </ClInclude>
-    <ClInclude Include="Weapon.h">
-      <Filter>Заголовочные файлы</Filter>
+      <Filter>Заголовочные файлы\Base Entities</Filter>
     </ClInclude>
     <ClInclude Include="Item.h">
-      <Filter>Заголовочные файлы</Filter>
+      <Filter>Заголовочные файлы\Base Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Mob.h">
+      <Filter>Заголовочные файлы\Base Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Заголовочные файлы\Base Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Заголовочные файлы\Base Entities</Filter>
     </ClInclude>
     <ClInclude Include="Characteristics.h">
-      <Filter>Заголовочные файлы</Filter>
+      <Filter>Заголовочные файлы\Base Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Boots.h">
+      <Filter>Заголовочные файлы\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="BootsType.h">
+      <Filter>Заголовочные файлы\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Items_All.h">
+      <Filter>Заголовочные файлы\Items\Item Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Заголовочные файлы\Base Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Item_Factory.h">
+      <Filter>Заголовочные файлы\Items\Item Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Item_Factory_Boots.h">
+      <Filter>Заголовочные файлы\Items\Item Factory</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Character.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="Entity.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="Mob.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="Weapon.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="Item.cpp">
-      <Filter>Файлы исходного кода</Filter>
+      <Filter>Файлы исходного кода\Base Entities</Filter>
     </ClCompile>
     <ClCompile Include="Characteristics.cpp">
-      <Filter>Файлы исходного кода</Filter>
+      <Filter>Файлы исходного кода\Base Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Файлы исходного кода\Base Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Файлы исходного кода\Base Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Mob.cpp">
+      <Filter>Файлы исходного кода\Base Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Файлы исходного кода\Base Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Sword.cpp">
+      <Filter>Файлы исходного кода\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapons_All.cpp">
+      <Filter>Файлы исходного кода\Weapons\Weapon Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon_Factory.cpp">
+      <Filter>Файлы исходного кода\Weapons\Weapon Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon_Factory_Sword.cpp">
+      <Filter>Файлы исходного кода\Weapons\Weapon Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Boots.cpp">
+      <Filter>Файлы исходного кода\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Items_All.cpp">
+      <Filter>Файлы исходного кода\Items\Item Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>Файлы исходного кода\Base Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Item_Factory.cpp">
+      <Filter>Файлы исходного кода\Items\Item Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Item_Factory_Boots.cpp">
+      <Filter>Файлы исходного кода\Items\Item Factory</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
