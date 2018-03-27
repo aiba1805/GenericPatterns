@@ -3,6 +3,7 @@
 #define ENTITY_H_BASE
 class Entity
 {
+
 public:
 	Entity();
 	~Entity();
