@@ -96,6 +96,15 @@
     <ClInclude Include="Item_Factory_Boots.h">
       <Filter>Заголовочные файлы\Items\Item Factory</Filter>
     </ClInclude>
+    <ClInclude Include="Entity_All.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity_AllBuilder.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonMob_Builder.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Character.cpp">
@@ -142,6 +151,15 @@
     </ClCompile>
     <ClCompile Include="Item_Factory_Boots.cpp">
       <Filter>Файлы исходного кода\Items\Item Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity_All.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity_AllBuilder.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="DragonMob_Builder.cpp">
+      <Filter>Файлы исходного кода</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
