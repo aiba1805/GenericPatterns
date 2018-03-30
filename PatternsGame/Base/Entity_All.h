@@ -4,9 +4,9 @@
 #include"Mob.h"
 class Entity_All
 {
+public:
 	std::vector<Character> characters;
 	std::vector<Mob> mobs;
-public:
 	Entity_All();
 	~Entity_All();
 };
