@@ -43,6 +43,36 @@
     <Filter Include="Файлы исходного кода\Items\Item Factory">
       <UniqueIdentifier>{e5bb5e34-0ef4-4c5d-b8a6-8c5de33ae5b8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Заголовочные файлы\Mobs">
+      <UniqueIdentifier>{c7edf1af-f7dd-4134-b460-afa6c4ad2f65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Mobs\Builders">
+      <UniqueIdentifier>{42546a86-2950-4533-95b3-9bcbf7cbfb3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Mobs">
+      <UniqueIdentifier>{198d2789-6caa-4fd0-aaa5-4fd3801b53e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Mobs\Builders">
+      <UniqueIdentifier>{20548d3f-ddee-4f18-a949-eac40a7f767c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Characters">
+      <UniqueIdentifier>{5dacdea2-1c84-4e0d-8f70-62bbdb7667fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Characters\Builders">
+      <UniqueIdentifier>{32fce0c6-614d-4ae1-aa82-e4130dcbeb11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Base Entities\Entity Builder">
+      <UniqueIdentifier>{918a3878-f8dd-4b25-8302-cab0f0b177ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Base Entities\Entity Builder">
+      <UniqueIdentifier>{a3e94ded-b976-4ac1-95ed-bf6d98325cbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Characters">
+      <UniqueIdentifier>{9e71d0b1-1945-4310-95bb-bb3fdf70c220}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Characters\Builders">
+      <UniqueIdentifier>{51da6ac2-01b8-4670-a782-de2bf207ac6f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Weapon_Factory.h">
@@ -96,14 +126,35 @@
     <ClInclude Include="Item_Factory_Boots.h">
       <Filter>Заголовочные файлы\Items\Item Factory</Filter>
     </ClInclude>
-    <ClInclude Include="Entity_All.h">
-      <Filter>Заголовочные файлы</Filter>
+    <ClInclude Include="TrollMob.h">
+      <Filter>Заголовочные файлы\Mobs</Filter>
     </ClInclude>
-    <ClInclude Include="Entity_AllBuilder.h">
-      <Filter>Заголовочные файлы</Filter>
+    <ClInclude Include="DragonMob.h">
+      <Filter>Заголовочные файлы\Mobs</Filter>
+    </ClInclude>
+    <ClInclude Include="TrollMob_Builder.h">
+      <Filter>Заголовочные файлы\Mobs\Builders</Filter>
     </ClInclude>
     <ClInclude Include="DragonMob_Builder.h">
-      <Filter>Заголовочные файлы</Filter>
+      <Filter>Заголовочные файлы\Mobs\Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="LionCharacter.h">
+      <Filter>Заголовочные файлы\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="AxeCharacter.h">
+      <Filter>Заголовочные файлы\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="AxeCharacter_Builder.h">
+      <Filter>Заголовочные файлы\Characters\Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="LionCharacter_Builder.h">
+      <Filter>Заголовочные файлы\Characters\Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity_All.h">
+      <Filter>Заголовочные файлы\Base Entities\Entity Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity_AllBuilder.h">
+      <Filter>Заголовочные файлы\Base Entities\Entity Builder</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -152,14 +203,35 @@
     <ClCompile Include="Item_Factory_Boots.cpp">
       <Filter>Файлы исходного кода\Items\Item Factory</Filter>
     </ClCompile>
-    <ClCompile Include="Entity_All.cpp">
-      <Filter>Файлы исходного кода</Filter>
+    <ClCompile Include="DragonMob.cpp">
+      <Filter>Файлы исходного кода\Mobs</Filter>
     </ClCompile>
-    <ClCompile Include="Entity_AllBuilder.cpp">
-      <Filter>Файлы исходного кода</Filter>
+    <ClCompile Include="TrollMob.cpp">
+      <Filter>Файлы исходного кода\Mobs</Filter>
     </ClCompile>
     <ClCompile Include="DragonMob_Builder.cpp">
-      <Filter>Файлы исходного кода</Filter>
+      <Filter>Файлы исходного кода\Mobs\Builders</Filter>
+    </ClCompile>
+    <ClCompile Include="TrollMob_Builder.cpp">
+      <Filter>Файлы исходного кода\Mobs\Builders</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity_All.cpp">
+      <Filter>Файлы исходного кода\Base Entities\Entity Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity_AllBuilder.cpp">
+      <Filter>Файлы исходного кода\Base Entities\Entity Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="AxeCharacter.cpp">
+      <Filter>Файлы исходного кода\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="LionCharacter.cpp">
+      <Filter>Файлы исходного кода\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="LionCharacter_Builder.cpp">
+      <Filter>Файлы исходного кода\Characters\Builders</Filter>
+    </ClCompile>
+    <ClCompile Include="AxeCharacter_Builder.cpp">
+      <Filter>Файлы исходного кода\Characters\Builders</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

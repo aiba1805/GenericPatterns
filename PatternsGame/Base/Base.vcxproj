@@ -19,10 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AxeCharacter.h" />
+    <ClInclude Include="AxeCharacter_Builder.h" />
     <ClInclude Include="Boots.h" />
     <ClInclude Include="BootsType.h" />
     <ClInclude Include="Character.h" />
     <ClInclude Include="Characteristics.h" />
+    <ClInclude Include="DragonMob.h" />
     <ClInclude Include="DragonMob_Builder.h" />
     <ClInclude Include="Entity.h" />
     <ClInclude Include="Entity_All.h" />
@@ -32,18 +35,25 @@
     <ClInclude Include="Items_All.h" />
     <ClInclude Include="Item_Factory.h" />
     <ClInclude Include="Item_Factory_Boots.h" />
+    <ClInclude Include="LionCharacter.h" />
+    <ClInclude Include="LionCharacter_Builder.h" />
     <ClInclude Include="Mob.h" />
     <ClInclude Include="Sword.h" />
     <ClInclude Include="SwordType.h" />
+    <ClInclude Include="TrollMob.h" />
+    <ClInclude Include="TrollMob_Builder.h" />
     <ClInclude Include="Weapon.h" />
     <ClInclude Include="Weapons_All.h" />
     <ClInclude Include="Weapon_Factory.h" />
     <ClInclude Include="Weapon_Factory_Sword.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AxeCharacter.cpp" />
+    <ClCompile Include="AxeCharacter_Builder.cpp" />
     <ClCompile Include="Boots.cpp" />
     <ClCompile Include="Character.cpp" />
     <ClCompile Include="Characteristics.cpp" />
+    <ClCompile Include="DragonMob.cpp" />
     <ClCompile Include="DragonMob_Builder.cpp" />
     <ClCompile Include="Entity.cpp" />
     <ClCompile Include="Entity_All.cpp" />
@@ -53,8 +63,12 @@
     <ClCompile Include="Items_All.cpp" />
     <ClCompile Include="Item_Factory.cpp" />
     <ClCompile Include="Item_Factory_Boots.cpp" />
+    <ClCompile Include="LionCharacter.cpp" />
+    <ClCompile Include="LionCharacter_Builder.cpp" />
     <ClCompile Include="Mob.cpp" />
     <ClCompile Include="Sword.cpp" />
+    <ClCompile Include="TrollMob.cpp" />
+    <ClCompile Include="TrollMob_Builder.cpp" />
     <ClCompile Include="Weapon.cpp" />
     <ClCompile Include="Weapons_All.cpp" />
     <ClCompile Include="Weapon_Factory.cpp" />
